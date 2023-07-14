@@ -921,6 +921,16 @@
 		"requiredTech": "Military Science",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
+	{
+		"name": "Agribusiness",
+		"food": 4,
+		"percentStatBonus": {"food": 10},
+		"requiredBuilding": "Granary",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Gold, +1 Production] from [Farm] tiles [in this city]"],
+		"requiredTech": "Fertilizer"
+	},
 	// Column 10
 	{
 		"name": "Hospital",
