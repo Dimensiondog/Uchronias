@@ -79,9 +79,24 @@
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
+		"uniques": [
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Herbalist",
+		"food": 2,
+		"requiredNearbyImprovedResources": ["Sugar", "Spices","Bananas","Cocoa","Citrus"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Must not be on [Plains]",
+			"[+1 Food] from [Sugar] tiles [in this city]",
+			"[+1 Food] from [Spices] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Cocoa] tiles [in this city]",
+			"[+1 Food] from [Citrus] tiles [in this city]",
+		],
 		"requiredTech": "Calendar"
 	},
 	{
