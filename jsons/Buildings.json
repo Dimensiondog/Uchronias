@@ -570,6 +570,14 @@
 		"requiredTech": "Compass"
 	},
 	{
+		"name": "Apothecary",		
+		"science": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"uniques": ["[+1 Food] from [Luxury resource] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
 		"name": "University",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
@@ -947,10 +955,20 @@
 	// Column 10
 	{
 		"name": "Hospital",
-		"food": 5,
+		"food": 2,
+		"science": 1,
+		"requiredBuilding": "Apothecary",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[Wounded] Units adjacent to this city heal [10] HP per turn when healing"],
+		"requiredTech": "Biology"
+	},
+	{
+		"name": "Sewer",
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
+		"uniques": ["[+33]% growth [in this city]"],
 		"requiredTech": "Biology"
 	},
 	{
