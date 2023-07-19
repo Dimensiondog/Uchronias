@@ -692,7 +692,17 @@
 	},
 	{
 		"name": "Opera House",
-		"culture": 4,
+		"culture": 2,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Art Gallery",
+		"culture": 2,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
