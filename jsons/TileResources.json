@@ -207,6 +207,18 @@
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
+	{
+		"name": "Great Work of Art",
+		"resourceType": "Strategic",
+		"uniques": ["Doesn't generate naturally",
+					"[+3 Culture]"],
+	},
+	{
+		"name": "Artifact",
+		"resourceType": "Strategic",
+		"uniques": ["Doesn't generate naturally",
+					"[+2 Culture, +1 Science]"],
+	},
 	
 	// Luxury resources
 	{
