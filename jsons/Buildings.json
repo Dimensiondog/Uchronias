@@ -784,6 +784,15 @@
 		"requiredTech": "Printing Press"
 	},
 	{
+		"name": "Gunsmith",
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Armory",
+		"uniques": ["New [Land] units start with [20] Experience [in this city]", "[+20]% Production when constructing [Land] units [in this city]"],
+		"requiredTech": "Gunpowder"
+	},
+	{
 		"name": "Leaning Tower of Pisa",
 		"culture": 1,
 		"isWonder": true,
