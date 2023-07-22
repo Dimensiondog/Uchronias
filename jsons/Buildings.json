@@ -980,6 +980,18 @@
 		"uniques": ["[+1 Gold, +1 Production] from [Farm] tiles [in this city]"],
 		"requiredTech": "Fertilizer"
 	},
+	{
+		"name": "Homestead",
+		"maintenance": 1,
+		"requiredBuilding": "Stable",
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+3 Food] from [Cattle] tiles [in this city]",
+			"[+3 Production] from [Horses] tiles [in this city]",
+			"[+3 Gold] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Rifiling"
+	},
 	// Column 10
 	{
 		"name": "Hospital",
