@@ -105,12 +105,38 @@
 		"requiredNearbyImprovedResources": ["Dyes", "Silk","Cotton"],
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
-			"[+1 Production] from [Silk] tiles [in this city]",
+		"uniques": [
+			"[+2 Gold] from [Silk] tiles [in this city]",
 			"[+1 Production] from [Cotton] tiles [in this city]",
-			"[+1 Production] from [Dyes] tiles [in this city]",
+			"[+1 Culture] from [Dyes] tiles [in this city]",
 		],
 		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Weaver",
+		"culture": 1,
+		"requiredNearbyImprovedResources": ["Dyes", "Silk","Cotton"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+2 Gold] from [Silk] tiles [in this city]",
+			"[+1 Production] from [Cotton] tiles [in this city]",
+			"[+1 Culture] from [Dyes] tiles [in this city]",
+		],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Smokehouse",
+		"food": 1,
+		"requiredNearbyImprovedResources": ["Cattle", "Sheep","Deer"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Sheep] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+		],
+		"requiredTech": "Trapping"
 	},
 	{
 		"name": "Stonehenge",
@@ -145,13 +171,6 @@
 		"requiredTech": "Writing",
 		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
-	},
-	{
-		"name": "Circus",
-		"requiredNearbyImprovedResources": ["Ivory","Horses"],
-		"happiness": 2,
-		"hurryCostModifier": 25,
-		"requiredTech": "Trapping"
 	},
 	{
 		"name": "Water Mill",
@@ -265,12 +284,11 @@
 	{
 		"name": "Stable",
 		"maintenance": 1,
-		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"requiredNearbyImprovedResources": ["Horses","Cattle"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+		"uniques": ["[+25]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production] from [Cattle] tiles [in this city]",
-			"[+1 Production] from [Horses] tiles [in this city]",
-			"[+1 Production] from [Sheep] tiles [in this city]"],
+			"[+2 Production] from [Horses] tiles [in this city]"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -305,6 +323,7 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
+		"uniques": ["Gain [3] [Culture]<upon gaining a [{Military}{Land}] unit>"]
 		"requiredTech": "Construction"
 	},
 	{
@@ -535,6 +554,15 @@
 		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles"],
 		"requiredTech": "Guilds",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
+	},
+	{
+		"name": "Circus",
+		"happiness": 2,
+		"uniques": ["[+5]% [Gold] from Trade Routes"],
+		"requiredBuilding": "Arena",
+		"hurryCostModifier": 25,
+		"requiredTech": "Guilds"
+
 	},
 	{
 		"name": "Workshop",
@@ -788,7 +816,7 @@
 		"happiness": 3,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"requiredBuilding": "Colosseum",
+		"requiredBuilding": "Arena",
 		"requiredTech": "Printing Press"
 	},
 	{
@@ -873,6 +901,19 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "Cloth Mill",
+		"gold": 3,
+		"requiredNearbyImprovedResources": ["Dyes", "Silk","Cotton"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Production, +3 Gold] from [Silk] tiles [in this city]",
+			"[+3 Production] from [Cotton] tiles [in this city]",
+			"[+1 Production, +2 Culture] from [Dyes] tiles [in this city]",
+		],
 		"requiredTech": "Economics"
 	},
 	{
@@ -991,7 +1032,6 @@
 	{
 		"name": "Homestead",
 		"maintenance": 1,
-		"requiredBuilding": "Stable",
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"uniques": [
