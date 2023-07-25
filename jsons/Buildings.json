@@ -297,7 +297,7 @@
 		"happiness": 5,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Requires a [Arena] in all cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -331,7 +331,7 @@
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"isWonder": true,
-		"uniques": ["New [{Military}{Land}] units start with [10] Experience [in all cities]"]
+		"uniques": ["New [{Military} {Land}] units start with [10] Experience [in all cities]"]
 		"requiredTech": "Construction"
 	},
 	{
@@ -1038,7 +1038,7 @@
 			"[+3 Food] from [Cattle] tiles [in this city]",
 			"[+3 Production] from [Horses] tiles [in this city]",
 			"[+3 Gold] from [Sheep] tiles [in this city]"],
-		"requiredTech": "Rifiling"
+		"requiredTech": "Rifling"
 	},
 	// Column 10
 	{
