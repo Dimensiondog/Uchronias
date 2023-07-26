@@ -57,7 +57,7 @@
                 "uniques": [
                     "[+33]% Unhappiness from [Population] [in all cities]", "[+100]% [Culture] [in the capital]", "[+50]% [Production] [in the capital]",
                      "[+50]% [Science] [in the capital]",  "[+50]% [Food] [in the capital]",  "[+50]% [Faith] [in the capital]",
-"Only available<before adopting [Aristrocracy]>", "Only available<before adopting [Theocracy]>","Only available<before adopting [Fuedalism]>", "Only available<before adopting [Mercantilism]>"
+"Only available<before adopting [Aristocracy]>", "Only available<before adopting [Theocracy]>","Only available<before adopting [Fuedalism]>", "Only available<before adopting [Mercantilism]>"
                 ],
                 "requires": ["Absolute Rule"],
                 "row": 3,
@@ -67,7 +67,7 @@
                 "name": "Fuedalism",
                 "uniques": [
                     "[-20]% Unhappiness from [Specialists] [in all cities]", "[+20]% Unhappiness from [Population] [in all cities]", "[-50]% tile improvement construction time",
-"Only available<before adopting [Aristrocracy]>", "Only available<before adopting [Representation]>", "Only available<before adopting [Theocracy]>","Only available<before adopting [Dynasticism]>", "Only available<before adopting [Mercantilism]>", "Only available<starting from the [Medieval era]>"
+"Only available<before adopting [Aristocracy]>", "Only available<before adopting [Representation]>", "Only available<before adopting [Theocracy]>","Only available<before adopting [Dynasticism]>", "Only available<before adopting [Mercantilism]>", "Only available<starting from the [Medieval era]>"
                 ],
                 "row": 3,
                 "column": 3
@@ -93,7 +93,7 @@
            {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[+1 Gold, +1 Culture] from [Resource] tiles [in all cities]",
+                    "[+3 Gold, +3 Culture] from [Luxury Resource] tiles [in all cities]",
 "Only available<before adopting [Fuedalism]>", "Only available<before adopting [Aristocracy]>","Only available<before adopting [Dynasticism]>", "Only available<before adopting [Theocracy]>"
                 ],
                 "requires": ["Representation"],
