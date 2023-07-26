@@ -1,4 +1,110 @@
 [
+        {
+        "name": "Governments",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 190,
+        },
+        "policies": [
+                        {
+                "name": "Monarchy",
+                "uniques": [
+                    "[+1 Happiness, +1 Culture] from all [Wonder] buildings", "[+15]% Production when constructing [Wonder] buildings [in all cities]",
+                    "Only available<before adopting [Republic]>"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Republic",
+                "uniques": [
+"[+1 Happiness, +1 Culture] from each Trade Route", "[+15]% Production when constructing [Settler] units [in all cities]","Only available<before adopting [Monarchy]>"
+
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Absolute Rule",
+                "uniques": ["[+10 Culture] [in all cities]<upon conquering a city>","[+25 Culture] [in all cities]<upon founding a city>", "Empire enters a [1]-turn Golden Age<upon conquering a city>","Empire enters a [1]-turn Golden Age <upon founding a city>",
+                    "Only available<before adopting [Oligarchy]>", "Only available<before adopting [Representation]>"
+
+                ],
+                "row": 2,
+                "column": 3,
+                "requires": ["Monarchy"],
+            },
+            {
+                "name": "Oligarchy",
+                "uniques": [
+                  "[+50 Culture] <upon constructing [Wonders]>","Empire enters a [1]-turn Golden Age<upon constructing [Wonders]>","Only available<before adopting [Absolute Rule]>", "Only available<before adopting [Representation]>"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Representation",
+                "uniques": [
+                    "[+1 Happiness, +1 Culture] per [5] population [in all non-occupied cities]",
+"Only available<before adopting [Absolute Rule]>", "Only available<before adopting [Oligarchy]>"
+                ],
+                "requires": ["Republic"],
+                "row": 2,
+                "column": 7
+            },
+            {
+                "name": "Dynasticism",
+                "uniques": [
+                    "[+33]% Unhappiness from [Population] [in all cities]", "[+100]% [Culture] [in the capital]", "[+50]% [Production] [in the capital]",
+                     "[+50]% [Science] [in the capital]",  "[+50]% [Food] [in the capital]",  "[+50]% [Faith] [in the capital]",
+"Only available<before adopting [Aristrocracy]>", "Only available<before adopting [Theocracy]>","Only available<before adopting [Fuedalism]>", "Only available<before adopting [Mercantilism]>"
+                ],
+                "requires": ["Absolute Rule"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Fuedalism",
+                "uniques": [
+                    "[-20]% Unhappiness from [Specialists] [in all cities]", "[+20]% Unhappiness from [Population] [in all cities]", "[-50]% tile improvement construction time",
+"Only available<before adopting [Aristrocracy]>", "Only available<before adopting [Representation]>", "Only available<before adopting [Theocracy]>","Only available<before adopting [Dynasticism]>", "Only available<before adopting [Mercantilism]>", "Only available<starting from the [Medieval era]>"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Aristocracy",
+                "uniques": [
+                   "[3] Happiness from each type of luxury resource", "[+50]% of excess happiness converted to [Gold]", "[+50]% of excess happiness converted to [Culture]",
+"Only available<before adopting [Fuedalism]>", "Only available<before adopting [Theocracy]>","Only available<before adopting [Dynasticism]>", "Only available<before adopting [Mercantilism]>"
+                ],
+                "row": 3,
+                "column": 5,
+                "requires": ["Oligarchy"],
+            },
+            {
+                "name": "Theocracy",
+                "uniques": ["[+1 Faith, +1 Culture] from all [Science] buildings", "[+1 Science, +1 Culture] from all [Faith] buildings",
+"Only available<after enhancing a religion>","Only available<before adopting [Fuedalism]>", "Only available<before adopting [Aristocracy]>","Only available<before adopting [Dynasticism]>", "Only available<before adopting [Mercantilism]>", "Only available<before adopting [Absolute Rule]>"
+],
+                "row": 3,
+                "column": 9
+            },
+           {
+                "name": "Mercantilism",
+                "uniques": [
+                    "[+1 Gold, +1 Culture] from [Resource] tiles [in all cities]",
+"Only available<before adopting [Fuedalism]>", "Only available<before adopting [Aristocracy]>","Only available<before adopting [Dynasticism]>", "Only available<before adopting [Theocracy]>"
+                ],
+                "requires": ["Representation"],
+                "row": 3,
+                "column": 11
+            },
+            {
+                "name": "Governments Complete",
+            }
+        ]
+    },
     {
         "name": "Tradition",
         "era": "Ancient era",
@@ -15,30 +121,12 @@
         ],
         "policies": [
             {
-                "name": "Aristocracy",
-                "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
                 "name": "Legalism",
                 "uniques": [
                     "Provides the cheapest [Culture] building in your first [4] cities for free"
                 ],
                 "row": 1,
                 "column": 3
-            },
-            {
-                "name": "Oligarchy",
-                "uniques": [
-                    "Units in cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>"
-                ],
-                "row": 1,
-                "column": 5
             },
             {
                 "name": "Landed Elite",
@@ -49,15 +137,6 @@
                 "requires": ["Legalism"],
                 "row": 2,
                 "column": 2
-            },
-            {
-                "name": "Monarchy",
-                "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
-                ],
-                "requires": ["Legalism"],
-                "row": 2,
-                "column": 4
             },
             {
                 "name": "Tradition Complete",
@@ -81,15 +160,6 @@
         "uniques": ["[+1 Culture] [in all cities]"],
         "policies": [
             {
-                "name": "Republic",
-                "uniques": [
-                    "[+1 Production] [in all cities]",
-                    "[+5]% Production when constructing [All] buildings [in all cities]"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
                 "name": "Citizenship",
                 "uniques": [
                     "[-25]% tile improvement construction time",
@@ -104,19 +174,8 @@
                     "[+50]% Production when constructing [Settler] units [in capital]",
                     "Free [Settler] appears"
                 ],
-                "requires": ["Republic"],
                 "row": 2,
                 "column": 1
-            },
-            {
-                "name": "Representation",
-                "uniques": [
-                    "Each city founded increases culture cost of policies [33]% less than normal",
-                    "Empire enters golden age"
-                ],
-                "requires": ["Citizenship"],
-                "row": 2,
-                "column": 3
             },
             {
                 "name": "Meritocracy",
@@ -236,13 +295,6 @@
                 "uniques": ["[50]% of excess happiness converted to [Culture]"],
                 "row": 1,
                 "column": 5
-            },
-            {
-                "name": "Theocracy",
-                "uniques": ["[+10]% [Gold] from every [Temple]"],
-                "requires": ["Organized Religion"],
-                "row": 2,
-                "column": 1
             },
             {
                 "name": "Reformation",
@@ -376,19 +428,7 @@
                 "row": 2,
                 "column": 2
             },
-            {
-                "name": "Mercantilism",
-                "uniques": [
-                    "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+1 Science] from every [Mint]",
-                    "[+1 Science] from every [Market]",
-                    "[+1 Science] from every [Bank]",
-                    "[+1 Science] from every [Stock Exchange]"
-                ],
-                "requires": ["Trade Unions"],
-                "row": 2,
-                "column": 4
-            },
+ 
             {
                 "name": "Protectionism",
                 "uniques": ["[+2] Happiness from each type of luxury resource"],
