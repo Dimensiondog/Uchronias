@@ -160,7 +160,7 @@
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [2] for visibility calculations",
-					"Occurs in groups around high elevations",
+					"Occurs in chains around high elevations",
 					"[+1] to Fertility for Map Generation",
 					"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
 					"Base Terrain on this tile is not counted for Region determination",
