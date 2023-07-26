@@ -88,17 +88,17 @@
 "Only available<after enhancing a religion>","Only available<before adopting [Fuedalism]>", "Only available<before adopting [Aristocracy]>","Only available<before adopting [Dynasticism]>", "Only available<before adopting [Mercantilism]>", "Only available<before adopting [Absolute Rule]>"
 ],
                 "row": 3,
-                "column": 9
+                "column": 7
             },
            {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[+3 Gold, +3 Culture] from [Luxury Resource] tiles [in all cities]",
+                    "[+3 Gold, +3 Culture] from [Luxury resource] tiles [in all cities]",
 "Only available<before adopting [Fuedalism]>", "Only available<before adopting [Aristocracy]>","Only available<before adopting [Dynasticism]>", "Only available<before adopting [Theocracy]>"
                 ],
                 "requires": ["Representation"],
                 "row": 3,
-                "column": 11
+                "column": 9
             },
             {
                 "name": "Governments Complete",
