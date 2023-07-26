@@ -1,4 +1,5 @@
 {
     "isBaseRuleset": true,
-    "minRiverLength": 2
+    "minRiverLength": 2,
+    "riverCountMultiplier": 0.05,
 }
