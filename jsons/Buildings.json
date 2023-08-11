@@ -376,6 +376,18 @@
 		"requiredTech": "Philosophy"
 	},
 	{
+		"name": "Basilica",
+		"replaces": "Temple",
+		"uniqueTo": "Byzantium",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["[+10 Culture] when a city adopts this religion for the first time (modified by game speed)"],
+		"culture": 1,
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy"
+	},
+	{
 		"name": "National College",
 		"cost": 125,
 		"science": 3,
@@ -606,6 +618,16 @@
 		"requiredTech": "Compass"
 	},
 	{
+		"name": "Cothon",
+		"replaces": "Harbor",
+		"uniqueTo": "Carthage",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production, +1 gold] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]", "[Water] Units adjacent to this city heal [30] HP per turn when healing"],
+		"requiredTech": "Optics"
+	},
+	{
 		"name": "Apothecary",		
 		"science": 2,
 		"maintenance": 2,
@@ -817,6 +839,16 @@
 		"hurryCostModifier": 10,
 		"maintenance": 2,
 		"requiredBuilding": "Arena",
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Salon",
+		"happiness": 2,
+		"culture": 2,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Arena",
+		"uniques": ["[+1 Happiness] per [10] social policies adopted"],
 		"requiredTech": "Printing Press"
 	},
 	{
