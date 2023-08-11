@@ -842,7 +842,9 @@
 		"requiredTech": "Printing Press"
 	},
 	{
-		"name": "Salon",
+		"name": "Salon",	
+		"replaces": "Theatre",
+		"uniqueTo": "France",
 		"happiness": 2,
 		"culture": 2,
 		"hurryCostModifier": 10,
