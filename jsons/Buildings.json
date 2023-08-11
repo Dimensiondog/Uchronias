@@ -1003,6 +1003,13 @@
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
 	},
 	{
+		"name": "The Smithsonian",
+		"culture": 3,
+		"isWonder": true,
+		"uniques": ["[+1 Science] from all [Culture] buildings"],
+		"requiredTech": "Archaeology",
+	},
+	{
 		"name": "Public School",
 		"science": 3,
 		"specialistSlots": {"Scientist": 1},
@@ -1021,6 +1028,16 @@
 		"requiredBuilding": "Workshop",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Slater Mill",
+		"production": 6,
+		"isWonder": true,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+15]% Production when constructing [All] buildings [in all cities]", "Gain a free [Factory] [in this city]"],
 		"requiredResource": "Coal",
 		"requiredTech": "Industrialization"
 	},
