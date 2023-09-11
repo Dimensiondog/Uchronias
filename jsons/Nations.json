@@ -130,6 +130,34 @@
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
 	{
+		"name": "Mamluks",
+		"leaderName": "Baiber",
+		"adjective": ["Mamluk"],
+		"startBias": ["Flood Plains"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
+		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+		"introduction": "",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "",
+
+		"outerColor": [ 245, 212, 66],
+		"innerColor": [247, 247, 245],
+		"favoredReligion": "Islam",
+		"uniqueName": "Iqta",
+		"uniques": ["[+1 Gold, +1 Food] from [Plantation] tiles [in all cities]", "[+1 Gold] from [Farm] tiles [in all cities]"],
+		"cities": ["Cairo","Al Iskanderia","Dalmeitta","Jerusalem","Tripoli","Mecca","Medina"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
+	{
 		"name": "England",
 		"leaderName": "Elizabeth",
 		"adjective": ["English"],
