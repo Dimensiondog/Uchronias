@@ -581,6 +581,21 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Mamluk",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Mamluk",
+		"movement": 4,
+		"strength": 20,
+		"cost": 130,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+20]% Strength bonus for [Mamluk] units within [3] tiles"],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Camel Archer",
 		"unitType": "Archery",
 		"replaces": "Knight",
