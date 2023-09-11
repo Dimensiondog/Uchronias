@@ -510,6 +510,14 @@
 		"requiredTech": "Theology"
 	},
 	{
+		"name": "Bayid",
+		"gold": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+20]% [Gold] from Trade Routes","Only available<for [Mamluk]>"]
+	},
+	{
 		"name": "Hagia Sophia",
 		"faith": 3,
 		"isWonder": true,
