@@ -515,7 +515,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+20]% [Gold] from Trade Routes","Only available<for [Mamluk]>"]
+		"uniques": ["[+20]% [Gold] from Trade Routes","Only available<for [Mamluks]>"]
 	},
 	{
 		"name": "Hagia Sophia",
