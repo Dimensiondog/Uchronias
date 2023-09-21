@@ -584,7 +584,7 @@
 		"name": "Mamluk",
 		"unitType": "Mounted",
 		"replaces": "Knight",
-		"uniqueTo": "Mamluk",
+		"uniqueTo": "Mamluks",
 		"movement": 4,
 		"strength": 20,
 		"cost": 130,
