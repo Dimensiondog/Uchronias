@@ -2,4 +2,5 @@
     "isBaseRuleset": true,
     "minRiverLength": 2,
     "riverCountMultiplier": 0.15,
+    "minimalCityDistance": 1,
 }
